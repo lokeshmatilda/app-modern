@@ -1,0 +1,55 @@
+{
+	"customerOrderId": "131",
+	"primaryPhone": "9525944805",
+	"customerEmailId": "as@yahoo.com",
+	"firstName": "Anand",
+	"orderStatus": "SUBMITTED",
+	"billToAddress": {
+		"billToAddressId": "101",
+		"firstName": "Anand",
+		"lastName": "sudhakar",
+		"city": "BLOOMINGTON",
+		"state": "MN",
+		"zipCode": "55344"
+	},
+	"shipToAddress": {
+		"shipToAddressId": "102",
+		"firstName": "Anand",
+		"lastName": "sudhakar",
+		"city": "BLOOMINGTON",
+		"state": "MN",
+		"zipCode": "55344"
+	},
+	"paymentInfo": {
+		"paymentId": "234",
+		"paymentStatus": "SUCCESS",
+		"cardType": "VISA",
+		"authorizedAmount": 50.00,
+		"collectedAmount": 5.00
+	},
+	"charges": {
+		"chargesId": "678",
+		"totalCharges": 10.00
+	},
+	"orderLines": [
+		{
+			"lineItemId": "45678",
+			"customerOrderId": "131",
+			"primeLineNumber": "1",
+			"subLineNumber": "1",
+			"customerSKU": "A165",
+			"shipToAddress": {
+				"shipToAddressId": "102",
+				"firstName": "Anand",
+				"lastName": "sudhakar",
+				"city": "BLOOMINGTON",
+				"state": "MN",
+				"zipCode": "55344"
+			},
+			"charges": {
+			"lineChargeId": "678",
+			"totalCharges": 10.00
+		}
+	}]
+}
+

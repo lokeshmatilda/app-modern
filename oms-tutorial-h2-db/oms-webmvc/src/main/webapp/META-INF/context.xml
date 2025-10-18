@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Context>
+    <!-- <ResourceLink name="jdbc/omsds" global="jdbc/omsds" type="javax.sql.DataSource" /> -->
+    <Resource name="jdbc/omsds" auth="Container" type="javax.sql.DataSource"
+              maxTotal="100" maxIdle="30" maxWaitMillis="10000"
+              username="sa" password="password" driverClassName="org.h2.Driver"
+              url="jdbc:h2:mem:testdb"/>
+</Context>
+
